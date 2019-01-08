@@ -1,0 +1,49 @@
+//
+// Prefix header for all source files of the 'voiceexpress' target in the 'voiceexpress' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    //一定要在Masonry前面define后面这两句
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    #define MAS_SHORTHAND
+
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS
+    #import "Masonry.h"
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+
+
+    #import "VEAppDelegate.h"
+    #import "Constant.h"
+    #import "UConstants.h"
+
+    #import "FYNHttpRequestLoader.h"
+    #import "VENavViewController.h"
+    #import "HttpModelTool.h"
+    #import "MBProgressHUD+QC.h"
+    #import "AlertTool.h"
+    #import "RESideMenu.h"
+    #import "PromptView.h"
+    #import "MJExtension.h"
+    #import "UIView+Extension.h"
+    #import "UIImageView+SD.h"
+    #import "RefreshHeader.h"
+    #import "QCZipImageTool.h"
+    #import "VEUtility.h"
+    #import "UIColor+Utils.h"
+    #import "BaseViewController.h"
+    #import "UIAlertController+Extend.h"
+    #import "UserTool.h"
+    #import "HttpTool.h"
+#endif

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Intelligence" representedClassName="Intelligence" syncable="YES">
+        <attribute name="articleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="boxType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstTimeRead" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isReadMarkUpload" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="latestTimeReply" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="warnType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="RecommendColumn" representedClassName="RecommendColumn" syncable="YES">
+        <attribute name="columnId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newestArticleId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecommendRead" representedClassName="RecommendRead" syncable="YES">
+        <attribute name="articleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="columnId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstTimeRead" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="warnType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Warn" representedClassName="Warn" syncable="YES">
+        <attribute name="articleContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="articleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstTimeRead" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="warnType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Intelligence" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="RecommendColumn" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="RecommendRead" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Warn" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>

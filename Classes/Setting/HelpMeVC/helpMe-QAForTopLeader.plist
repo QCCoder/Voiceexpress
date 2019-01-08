@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>1.   如何手动发送情报？</string>
+		<key>answer</key>
+		<string>点击【情报交互】右上角的发送情报按钮，就可以编辑需要发送的内容，确认后发送。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>2.   收到一条请报，想要转发情报给他人？</string>
+		<key>answer</key>
+		<string>进入该情报信息的详情页，点击右下角的更多，点【转发】，进入编辑，选择需要转发的对象并发送。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>3.   如何可以设置为启动后自动登入？</string>
+		<key>answer</key>
+		<string>打开【启动后自动登录】则下次自动登录，无需输入帐号密码；不勾选则下次登录需输入帐号密码。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>4.   手机自动推送怎么设置？</string>
+		<key>answer</key>
+		<string>在【设置】中，在【通知选项】中勾选【自动推送预警】，则在离开【情报交互】页面后可获得推送的预警；若不勾选，则不会自动获取。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>5.   怎么修改登入密码？</string>
+		<key>answer</key>
+		<string>在【设置】中点击【密码修改】，输入原密码和新密码即可。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>6.   我没有收到预警信息的推送，是什么原因？如何检查？</string>
+		<key>answer</key>
+		<string>a  网络未正常连接。可尝试使用浏览器打开几个网页检查。Nb  程序未开启推送。请进入程序的【设置】页面，勾选【是否需要自动推送】。Nc  程序已退出登录（上一次登录时，点击程序下拉菜单或【设置】页面的【退出登录】按钮）。请再次进入程序，重新登录。Nd  程序被其他软件（如360安全卫士等）清理并杀死了进程。请进入360安全卫士等软件进行设置。Ne  如果以上情况都无法解决，请打开程序的【设置】页面，点击【上传日志】。同时联系我们的客服，我们会尽快帮您解决问题。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>7.   iOS系统的推送功能怎么设置？</string>
+		<key>answer</key>
+		<string>首先，如果用户需要接收“预警消息”的推送服务，可在程序的【设置】中开启自动推送（程序默认是开启服务的）；然后，打开手机中的【设置】，点击【通知】，找到应用程序并点击进入，将推送开关打开。N设置推送样式Na)	  如果设置为无，则在手机收到推送消息时，是不会去提醒用户的；Nb)  	如果设置为横幅，则当手机收到推送消息时，在手机屏幕的顶部会显示出横幅并会自动消失。Nc)	  如果设置为提醒，则当手机收到推送消息时，在手机屏幕的中央会显示出提醒窗口，直至用户点击才会自动消失。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>8.   在手机中的【设置】中，点击【通知】，如果找不到应用怎么办？</string>
+		<key>answer</key>
+		<string>可尝试如下操作：N1)	关闭手机中的程序，（双击手机的Home键，在手机界面的下方便会出现所有运行的程序；找到【设置】并长按住，便会在左上角出现一个删除的图标，点击便可关闭程序）。N2)	 如同上面的操作，关闭【舆情快递】程序（如果有的话）。N3)	 重启手机。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>9.   程序提示“网络连接中断”、“连接超时”，是什么原因？</string>
+		<key>answer</key>
+		<string>可能原因是您的网络连接中断或者网络信号差。请您检查手机的网络状态。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>10.   如何获得进一步的帮助？</string>
+		<key>answer</key>
+		<string>在使用本程序中遇到任何的问题或者您有宝贵意见，请随时联系我们客服人员:N电话：0574-28877331N邮箱：contact@cyyun.com</string>
+	</dict>
+</array>
+</plist>

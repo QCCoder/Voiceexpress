@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="VEWarnAlertTableViewCell" rowHeight="58" id="sOn-E9-IgG" customClass="VEWarnAlertTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sOn-E9-IgG" id="wuv-sY-iVS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" image="bar-listbg-new.png" highlightedImage="bar-listbg-old.png" translatesAutoresizingMaskIntoConstraints="NO" id="R44-cb-pSs">
+                        <rect key="frame" x="10" y="8" width="300" height="50"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmp-Y2-SxD">
+                        <rect key="frame" x="10" y="8" width="5" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="uFZ-dw-MBm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="center" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcJ-o7-fGl">
+                        <rect key="frame" x="22" y="9" width="279" height="28"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="15" contentMode="center" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUK-S0-Twk">
+                        <rect key="frame" x="22" y="33" width="80" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="bkh-OS-Iup"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.1019607843" green="0.51372549020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="12" contentMode="center" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6b2-E8-abm">
+                        <rect key="frame" x="176" y="33" width="129" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="11" contentMode="center" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC7-EB-ueL">
+                        <rect key="frame" x="98" y="33" width="81" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="81" id="8vj-ha-c6d"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kC7-EB-ueL" firstAttribute="firstBaseline" secondItem="6b2-E8-abm" secondAttribute="firstBaseline" id="0qu-VB-woO"/>
+                    <constraint firstItem="Qmp-Y2-SxD" firstAttribute="bottom" secondItem="R44-cb-pSs" secondAttribute="bottom" id="1Aw-qK-jze"/>
+                    <constraint firstItem="R44-cb-pSs" firstAttribute="centerX" secondItem="wuv-sY-iVS" secondAttribute="centerX" id="2i9-h1-rdG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wcJ-o7-fGl" secondAttribute="trailing" constant="11" id="4TY-Oz-cZe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="6b2-E8-abm" secondAttribute="trailing" constant="7" id="9Is-6h-OP6"/>
+                    <constraint firstItem="R44-cb-pSs" firstAttribute="top" secondItem="Qmp-Y2-SxD" secondAttribute="top" id="AhI-N9-8ge"/>
+                    <constraint firstItem="fUK-S0-Twk" firstAttribute="firstBaseline" secondItem="kC7-EB-ueL" secondAttribute="firstBaseline" id="BNS-6u-uGB"/>
+                    <constraint firstItem="R44-cb-pSs" firstAttribute="leading" secondItem="wuv-sY-iVS" secondAttribute="leadingMargin" constant="2" id="EwO-CE-rn2"/>
+                    <constraint firstItem="kC7-EB-ueL" firstAttribute="leading" secondItem="Qmp-Y2-SxD" secondAttribute="trailing" constant="83" id="HQf-WF-uYa"/>
+                    <constraint firstItem="kC7-EB-ueL" firstAttribute="baseline" secondItem="6b2-E8-abm" secondAttribute="baseline" id="Mvb-gL-SkJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qmp-Y2-SxD" secondAttribute="bottom" constant="-8.5" id="P6r-Sv-9eS"/>
+                    <constraint firstItem="wcJ-o7-fGl" firstAttribute="leading" secondItem="fUK-S0-Twk" secondAttribute="leading" id="WOX-Zr-kyy"/>
+                    <constraint firstItem="wcJ-o7-fGl" firstAttribute="top" secondItem="wuv-sY-iVS" secondAttribute="topMargin" constant="1" id="ap6-di-4CJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="wcJ-o7-fGl" secondAttribute="bottom" constant="12.5" id="bcr-ck-ytR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fUK-S0-Twk" secondAttribute="bottom" constant="-4.5" id="brv-p4-pi6"/>
+                    <constraint firstItem="wcJ-o7-fGl" firstAttribute="leading" secondItem="Qmp-Y2-SxD" secondAttribute="trailing" constant="7" id="cPr-sE-yK9"/>
+                    <constraint firstItem="fUK-S0-Twk" firstAttribute="top" secondItem="wuv-sY-iVS" secondAttribute="topMargin" constant="25" id="daY-yY-FP5"/>
+                    <constraint firstItem="fUK-S0-Twk" firstAttribute="baseline" secondItem="kC7-EB-ueL" secondAttribute="baseline" id="kMq-Aj-paO"/>
+                    <constraint firstItem="Qmp-Y2-SxD" firstAttribute="top" secondItem="wuv-sY-iVS" secondAttribute="topMargin" id="kQk-ex-j61"/>
+                    <constraint firstItem="6b2-E8-abm" firstAttribute="leading" secondItem="fUK-S0-Twk" secondAttribute="trailing" constant="74" id="qH8-O1-HZO"/>
+                    <constraint firstItem="Qmp-Y2-SxD" firstAttribute="leading" secondItem="R44-cb-pSs" secondAttribute="leading" id="roY-GF-0eF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="imageBackground" destination="R44-cb-pSs" id="kMR-3h-FCI"/>
+                <outlet property="imageLevel" destination="Qmp-Y2-SxD" id="6AB-dS-z3u"/>
+                <outlet property="labelArea" destination="fUK-S0-Twk" id="vDZ-5S-4Wg"/>
+                <outlet property="labelSiteName" destination="kC7-EB-ueL" id="K7e-0h-ruD"/>
+                <outlet property="labelTime" destination="6b2-E8-abm" id="6LD-ur-dJM"/>
+                <outlet property="labelTitle" destination="wcJ-o7-fGl" id="Bm7-ZG-OoA"/>
+            </connections>
+            <point key="canvasLocation" x="450" y="332"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bar-listbg-new.png" width="302" height="72"/>
+        <image name="bar-listbg-old.png" width="302" height="72"/>
+    </resources>
+</document>

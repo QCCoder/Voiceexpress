@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="CellLocalAreaTags" rowHeight="42" id="s7z-dh-8a7" customClass="LocalAreaCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s7z-dh-8a7" id="Os7-dy-v0L">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button tag="101" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwg-DE-tYu">
+                        <rect key="frame" x="10" y="7" width="95" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" backgroundImage="text_bg.png">
+                            <color key="titleColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="text_bg">
+                            <color key="titleColor" red="0.23137254900000001" green="0.52941176469999995" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="103" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpp-uv-eoy">
+                        <rect key="frame" x="215" y="7" width="95" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" backgroundImage="text_bg.png">
+                            <color key="titleColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="text_bg">
+                            <color key="titleColor" red="0.23137254900000001" green="0.52941176469999995" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="102" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIx-O3-7Ar">
+                        <rect key="frame" x="112" y="7" width="95" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" backgroundImage="text_bg.png">
+                            <color key="titleColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="text_bg">
+                            <color key="titleColor" red="0.23137254900000001" green="0.52941176469999995" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lpp-uv-eoy" firstAttribute="leading" secondItem="mIx-O3-7Ar" secondAttribute="trailing" constant="10" id="O1G-c7-hIi"/>
+                    <constraint firstItem="mIx-O3-7Ar" firstAttribute="leading" secondItem="Zwg-DE-tYu" secondAttribute="trailing" constant="10" id="W42-WI-6XL"/>
+                    <constraint firstItem="mIx-O3-7Ar" firstAttribute="leading" secondItem="Zwg-DE-tYu" secondAttribute="trailing" constant="7" id="Ziz-iI-CEQ"/>
+                    <constraint firstItem="Zwg-DE-tYu" firstAttribute="width" secondItem="Lpp-uv-eoy" secondAttribute="width" id="aG2-ep-saL"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Lpp-uv-eoy" secondAttribute="trailing" constant="2" id="pjU-Cr-0la"/>
+                    <constraint firstItem="Zwg-DE-tYu" firstAttribute="leading" secondItem="Os7-dy-v0L" secondAttribute="leadingMargin" constant="2" id="w3e-6L-aqX"/>
+                    <constraint firstItem="Zwg-DE-tYu" firstAttribute="width" secondItem="mIx-O3-7Ar" secondAttribute="width" id="z5M-3t-iQd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="text_bg" width="95" height="35"/>
+        <image name="text_bg.png" width="95" height="35"/>
+    </resources>
+</document>

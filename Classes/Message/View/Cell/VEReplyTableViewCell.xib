@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="CellReplyTip" rowHeight="30" id="TZO-Gu-dwd" customClass="VEReplyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TZO-Gu-dwd" id="CCc-5C-gSJ">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="106" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" image="btn_reply_normal.png" highlightedImage="btn_reply_pressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="jik-j8-aDW">
+                        <rect key="frame" x="10" y="0.0" width="280" height="30"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jik-j8-aDW" firstAttribute="leading" secondItem="CCc-5C-gSJ" secondAttribute="leadingMargin" constant="2" id="X47-VG-EKI"/>
+                    <constraint firstItem="jik-j8-aDW" firstAttribute="centerX" secondItem="CCc-5C-gSJ" secondAttribute="centerX" id="bNd-SV-bYS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jik-j8-aDW" secondAttribute="trailing" constant="2" id="zgp-8H-kXY"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="bNd-SV-bYS"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="replyBtn" destination="jik-j8-aDW" id="uxz-l0-eqh"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="210"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="CellNoReplyAndMeReply" rowHeight="100" id="V57-MD-lBz" customClass="VEReplyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V57-MD-lBz" id="Unq-0z-1rB">
+                <rect key="frame" x="0.0" y="0.0" width="304" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="reply_comments.png" highlightedImage="reply_comments.png" translatesAutoresizingMaskIntoConstraints="NO" id="jQH-Qd-gRP">
+                        <rect key="frame" x="129" y="10" width="47" height="44"/>
+                    </imageView>
+                    <button opaque="NO" tag="301" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFG-vW-nki">
+                        <rect key="frame" x="155" y="68" width="145" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <state key="normal" title="我来回复">
+                            <color key="titleColor" red="0.1137254902" green="0.51372549020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" red="0.23529411759999999" green="0.54901960780000003" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="，" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKn-h9-bFW">
+                        <rect key="frame" x="148" y="68" width="4" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.74117647058823533" green="0.74117647058823533" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="暂无回复" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8L5-dV-iiK">
+                        <rect key="frame" x="0.0" y="68" width="145" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="XKn-h9-bFW" firstAttribute="top" secondItem="jQH-Qd-gRP" secondAttribute="bottom" constant="14" id="171-D3-PkN"/>
+                    <constraint firstItem="jQH-Qd-gRP" firstAttribute="centerX" secondItem="Unq-0z-1rB" secondAttribute="centerX" id="1hP-39-zYi"/>
+                    <constraint firstItem="8L5-dV-iiK" firstAttribute="top" secondItem="jQH-Qd-gRP" secondAttribute="bottom" constant="14" id="2ex-Er-kGE"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="height" secondItem="8L5-dV-iiK" secondAttribute="height" id="7zs-B7-6OZ"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="leading" secondItem="XKn-h9-bFW" secondAttribute="trailing" constant="3" id="Hir-1S-cP3"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="leading" secondItem="8L5-dV-iiK" secondAttribute="trailing" id="HsL-e4-ePU"/>
+                    <constraint firstItem="XKn-h9-bFW" firstAttribute="centerY" secondItem="eFG-vW-nki" secondAttribute="centerY" id="LoI-OY-i9Z"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="centerY" secondItem="8L5-dV-iiK" secondAttribute="centerY" id="O9N-im-Xvw"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="leading" secondItem="8L5-dV-iiK" secondAttribute="trailing" id="TlF-hF-hMi"/>
+                    <constraint firstItem="jQH-Qd-gRP" firstAttribute="top" secondItem="Unq-0z-1rB" secondAttribute="topMargin" constant="2" id="XkM-BG-aTe"/>
+                    <constraint firstItem="XKn-h9-bFW" firstAttribute="leading" secondItem="8L5-dV-iiK" secondAttribute="trailing" constant="3" id="XoH-CN-UWg"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eFG-vW-nki" secondAttribute="bottom" constant="3" id="Ztq-3z-QSX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8L5-dV-iiK" secondAttribute="bottom" constant="3" id="dmj-9z-HrP"/>
+                    <constraint firstItem="8L5-dV-iiK" firstAttribute="width" secondItem="eFG-vW-nki" secondAttribute="width" id="nKh-Kk-Rsr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eFG-vW-nki" secondAttribute="trailing" id="r79-U2-yhg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eFG-vW-nki" secondAttribute="trailing" constant="-4" id="vxK-jV-wyl"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="top" secondItem="jQH-Qd-gRP" secondAttribute="bottom" constant="14" id="w6I-1w-X7b"/>
+                    <constraint firstItem="8L5-dV-iiK" firstAttribute="leading" secondItem="Unq-0z-1rB" secondAttribute="leadingMargin" constant="-8" id="xBK-e5-Ohz"/>
+                    <constraint firstItem="eFG-vW-nki" firstAttribute="centerY" secondItem="8L5-dV-iiK" secondAttribute="centerY" id="zRT-zK-e1u"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="2ex-Er-kGE"/>
+                        <exclude reference="7zs-B7-6OZ"/>
+                        <exclude reference="HsL-e4-ePU"/>
+                        <exclude reference="TlF-hF-hMi"/>
+                        <exclude reference="r79-U2-yhg"/>
+                        <exclude reference="w6I-1w-X7b"/>
+                        <exclude reference="zRT-zK-e1u"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="162" y="331"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="CellNoReply" rowHeight="100" id="Xm2-9u-OSF" customClass="VEReplyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xm2-9u-OSF" id="GB9-Lk-ujM">
+                <rect key="frame" x="0.0" y="0.0" width="304" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="left" misplaced="YES" text="暂无回复" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-5E-VFT">
+                        <rect key="frame" x="47" y="68" width="210" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="reply_comments.png" highlightedImage="reply_comments.png" translatesAutoresizingMaskIntoConstraints="NO" id="QWo-KK-NVo">
+                        <rect key="frame" x="129" y="10" width="47" height="44"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ee6-5E-VFT" firstAttribute="centerX" secondItem="GB9-Lk-ujM" secondAttribute="centerX" id="FdZ-yt-aeO"/>
+                    <constraint firstItem="Ee6-5E-VFT" firstAttribute="top" secondItem="QWo-KK-NVo" secondAttribute="bottom" constant="14" id="JKd-81-cLj"/>
+                    <constraint firstItem="QWo-KK-NVo" firstAttribute="centerX" secondItem="GB9-Lk-ujM" secondAttribute="centerX" id="MOw-7u-AT0"/>
+                    <constraint firstItem="QWo-KK-NVo" firstAttribute="top" secondItem="GB9-Lk-ujM" secondAttribute="topMargin" constant="2" id="Nmc-63-9dU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="162" y="488"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn_reply_normal.png" width="301" height="30"/>
+        <image name="btn_reply_pressed.png" width="301" height="30"/>
+        <image name="reply_comments.png" width="46" height="44"/>
+    </resources>
+</document>

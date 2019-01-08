@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            function isSectionVisible(elem, sy, sh) {
+                //var t = elem.offset().top;
+                var t = document.getElementById(elem).offsetTop;
+                return (t >= sy && t <= (sy + sh));
+            }
+            function getSectionTitle(sectionID) {
+                return document.getElementById(sectionID).innerHTML;
+            }
+            function getSectionCoordinates(sectionID) {
+                var r = document.getElementById(sectionID).getBoundingClientRect();
+                return '{{' + r.left + ',' + r.top + '},{' + r.width + ',' + r.height + '}}';
+            }
+            </script>
+    </head>
+    <body style="font-size:{FONTSIZE}px;font-family:STHeitiUISC-Thin;line-height:{LINEHEIGHT}px;">
+        <div id="textContent" style="word-wrap:break-word;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{CONTENT}
+        </div>
+    </body>
+</html>

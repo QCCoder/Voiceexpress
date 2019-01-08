@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>icon-l-msg</string>
+		<key>title</key>
+		<string>情报交互</string>
+	</dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-bell</string>
+        <key>title</key>
+        <string>预警舆情</string>
+    </dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-note</string>
+        <key>title</key>
+        <string>信息上报</string>
+    </dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-book</string>
+        <key>title</key>
+        <string>推荐阅读</string>
+    </dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-search</string>
+        <key>title</key>
+        <string>舆情搜索</string>
+    </dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-write</string>
+        <key>title</key>
+        <string>信息审核</string>
+    </dict>
+    <dict>
+        <key>icon</key>
+        <string>icon-l-star</string>
+        <key>title</key>
+        <string>收藏夹</string>
+    </dict>
+</array>
+</plist>

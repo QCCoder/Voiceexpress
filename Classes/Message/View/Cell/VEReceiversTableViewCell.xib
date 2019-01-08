@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="VEReceiversTableViewCell" rowHeight="30" id="Bm0-lY-adt" customClass="VEReceiversTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bm0-lY-adt" id="heq-sF-kZx">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="29.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="center" text="aaa" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pp3-4b-rKk">
+                        <rect key="frame" x="0.0" y="4" width="65" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.019607843829999999" green="0.66274511810000003" blue="0.97254908080000002" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="highlightedColor" red="0.15829006749999999" green="0.094629477150000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="110" contentMode="center" text="" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mhF-2x-dS6">
+                        <rect key="frame" x="102" y="4" width="65" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.019607843829999999" green="0.66274511810000003" blue="0.97254908080000002" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="highlightedColor" red="0.15829006749999999" green="0.094629477150000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <imageView tag="15" contentMode="scaleToFill" id="uOS-hc-c1S">
+                        <rect key="frame" x="67" y="8" width="28" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    </imageView>
+                    <imageView tag="115" contentMode="scaleToFill" id="FA7-MY-qLA">
+                        <rect key="frame" x="169" y="8" width="28" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="receiver1" destination="Pp3-4b-rKk" id="xQU-xc-mAT"/>
+                <outlet property="receiver2" destination="mhF-2x-dS6" id="jVw-L8-bC6"/>
+                <outlet property="receiverRead1" destination="uOS-hc-c1S" id="O9h-wu-n6D"/>
+                <outlet property="receiverRead2" destination="FA7-MY-qLA" id="Brk-WY-9Jq"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>网安信息快报</string>
+		<key>icon</key>
+		<string>msg_icon_instant.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>网安每日舆情</string>
+		<key>icon</key>
+		<string>msg_icon_daily.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>外宣每日舆情</string>
+		<key>icon</key>
+		<string>msg_icon_international.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>情报交互信息</string>
+		<key>icon</key>
+		<string>msg_icon_mutual.png</string>
+	</dict>
+</array>
+</plist>

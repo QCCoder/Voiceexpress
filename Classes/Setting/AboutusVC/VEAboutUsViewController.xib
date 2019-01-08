@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="6000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VEAboutUsViewController">
+            <connections>
+                <outlet property="logoImage" destination="45" id="NQn-t7-5CB"/>
+                <outlet property="messageImageView" destination="38" id="Cev-nr-036"/>
+                <outlet property="telImageView" destination="39" id="E7M-Mt-zX8"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="box-mid.png" translatesAutoresizingMaskIntoConstraints="NO" id="37">
+                            <rect key="frame" x="12" y="31" width="351" height="294"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="box-top.png" translatesAutoresizingMaskIntoConstraints="NO" id="48">
+                            <rect key="frame" x="63" y="71" width="300" height="4"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="box-btm.png" translatesAutoresizingMaskIntoConstraints="NO" id="47">
+                            <rect key="frame" x="288" y="324" width="300" height="2"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                            <rect key="frame" x="24" y="109" width="829" height="202"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="202" id="B2S-t2-agz"/>
+                            </constraints>
+                            <string key="text">中青华云新媒体科技有限公司是一家共青团中央下属的高科技公司。公司由中国青年报社组建，旨在建设一个国家级的引领舆论导向的新媒体平台。公司立足自主研发和技术创新，积极引进国内外高科技人才和领先的新媒体技术，和清华大学等科研机构深入合作，始终保持核心技术行业领先地位。“舆情快递VOICE EXPRESS”是公司核心产品。该产品经历多年技术沉淀，拥有完全自主知识产权，具有强大的市场竞争力。</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="cyyun.png" translatesAutoresizingMaskIntoConstraints="NO" id="45">
+                            <rect key="frame" x="143" y="51" width="140" height="54"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="box-top.png" translatesAutoresizingMaskIntoConstraints="NO" id="44">
+                            <rect key="frame" x="288" y="335" width="300" height="4"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="Vhk-Wv-DCN"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="box-btm.png" translatesAutoresizingMaskIntoConstraints="NO" id="43">
+                            <rect key="frame" x="8" y="373" width="355" height="4"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35">
+                            <rect key="frame" x="12" y="335" width="351" height="40"/>
+                            <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                            <state key="normal" title="      0574-28877335" backgroundImage="box-mid.png">
+                                <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="callAction:" destination="-1" eventType="touchUpInside" id="51"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="box-top" translatesAutoresizingMaskIntoConstraints="NO" id="42">
+                            <rect key="frame" x="8" y="383" width="355" height="4"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="npG-DB-VXm"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="box-btm.png" translatesAutoresizingMaskIntoConstraints="NO" id="41">
+                            <rect key="frame" x="8" y="421" width="300" height="4"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="LAO-PB-5so"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40">
+                            <rect key="frame" x="12" y="383" width="351" height="40"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <state key="normal" title="       contact@cyyun.com" backgroundImage="box-mid">
+                                <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="contactAction:" destination="-1" eventType="touchUpInside" id="52"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="message" translatesAutoresizingMaskIntoConstraints="NO" id="38">
+                            <rect key="frame" x="51" y="388" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="TlC-BY-zCh"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="telephone" translatesAutoresizingMaskIntoConstraints="NO" id="39">
+                            <rect key="frame" x="51" y="340" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Rxz-Gj-Oob"/>
+                                <constraint firstAttribute="width" constant="30" id="j9q-qt-aGN"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="37" secondAttribute="trailing" constant="12" id="0ct-60-Ec7"/>
+                        <constraint firstItem="42" firstAttribute="leading" secondItem="41" secondAttribute="leading" id="36W-NV-r7F"/>
+                        <constraint firstItem="44" firstAttribute="top" secondItem="35" secondAttribute="top" id="42p-nr-atm"/>
+                        <constraint firstItem="39" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="51" id="7Bq-Gc-sNF"/>
+                        <constraint firstItem="46" firstAttribute="top" secondItem="45" secondAttribute="bottom" constant="4" id="86G-wc-5n5"/>
+                        <constraint firstItem="47" firstAttribute="top" secondItem="46" secondAttribute="bottom" constant="13" id="9sT-gv-P6T"/>
+                        <constraint firstItem="47" firstAttribute="trailing" secondItem="44" secondAttribute="trailing" id="DyJ-ga-Acf"/>
+                        <constraint firstItem="35" firstAttribute="trailing" secondItem="44" secondAttribute="trailing" id="Iav-CB-dpZ"/>
+                        <constraint firstAttribute="trailing" secondItem="40" secondAttribute="trailing" constant="12" id="LpU-l8-8f7"/>
+                        <constraint firstItem="47" firstAttribute="centerX" secondItem="46" secondAttribute="centerX" id="Myt-WA-s3U"/>
+                        <constraint firstItem="37" firstAttribute="top" secondItem="34" secondAttribute="top" constant="31" id="NYN-M4-3wK"/>
+                        <constraint firstItem="37" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="12" id="Pre-63-rew"/>
+                        <constraint firstItem="48" firstAttribute="leading" secondItem="37" secondAttribute="leading" id="QJg-kQ-GIK"/>
+                        <constraint firstItem="46" firstAttribute="top" secondItem="48" secondAttribute="bottom" constant="34" id="Qs4-JG-Nae"/>
+                        <constraint firstItem="45" firstAttribute="centerX" secondItem="34" secondAttribute="centerX" id="R5c-JR-uk7"/>
+                        <constraint firstItem="45" firstAttribute="top" secondItem="34" secondAttribute="top" constant="51" id="R8w-RX-TP5"/>
+                        <constraint firstItem="42" firstAttribute="top" secondItem="40" secondAttribute="top" id="Rkv-ed-rex"/>
+                        <constraint firstItem="40" firstAttribute="leading" secondItem="42" secondAttribute="leading" id="SKD-Q7-e4B"/>
+                        <constraint firstItem="41" firstAttribute="top" secondItem="38" secondAttribute="bottom" constant="3" id="TvY-mU-sZj"/>
+                        <constraint firstItem="39" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="51" id="UYY-WG-SaX"/>
+                        <constraint firstAttribute="trailing" secondItem="48" secondAttribute="trailing" constant="12" id="V5e-Sg-0KU"/>
+                        <constraint firstItem="48" firstAttribute="trailing" secondItem="47" secondAttribute="trailing" id="Vgr-a2-SBQ"/>
+                        <constraint firstItem="48" firstAttribute="top" secondItem="34" secondAttribute="top" constant="71" id="YYC-da-eTg"/>
+                        <constraint firstItem="35" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="12" id="ZfX-ho-jyM"/>
+                        <constraint firstItem="40" firstAttribute="top" secondItem="35" secondAttribute="bottom" constant="8" symbolic="YES" id="a4j-Bs-fVZ"/>
+                        <constraint firstAttribute="trailing" secondItem="46" secondAttribute="trailing" constant="24" id="aXY-yf-KOE"/>
+                        <constraint firstItem="47" firstAttribute="leading" secondItem="44" secondAttribute="leading" id="ah9-HV-skf"/>
+                        <constraint firstItem="42" firstAttribute="leading" secondItem="43" secondAttribute="leading" id="bOg-WZ-5Vh"/>
+                        <constraint firstItem="44" firstAttribute="top" secondItem="47" secondAttribute="bottom" constant="9" id="bkI-Nb-xwg"/>
+                        <constraint firstAttribute="trailing" secondItem="35" secondAttribute="trailing" constant="12" id="bky-SZ-0NH"/>
+                        <constraint firstItem="42" firstAttribute="trailing" secondItem="40" secondAttribute="trailing" id="clU-FM-3bx"/>
+                        <constraint firstItem="39" firstAttribute="top" secondItem="44" secondAttribute="bottom" constant="1" id="e3Z-v3-czp"/>
+                        <constraint firstItem="35" firstAttribute="top" secondItem="37" secondAttribute="bottom" constant="10" id="eaX-8t-FbV"/>
+                        <constraint firstItem="40" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="12" id="fOb-ne-qNR"/>
+                        <constraint firstItem="39" firstAttribute="leading" secondItem="38" secondAttribute="leading" id="fqs-fQ-tuY"/>
+                        <constraint firstItem="40" firstAttribute="centerY" secondItem="38" secondAttribute="centerY" id="fzR-0g-y5u"/>
+                        <constraint firstItem="38" firstAttribute="top" secondItem="42" secondAttribute="bottom" constant="1" id="hqE-wW-Ceb"/>
+                        <constraint firstItem="43" firstAttribute="leading" secondItem="34" secondAttribute="leadingMargin" id="khk-Bw-RFw"/>
+                        <constraint firstItem="43" firstAttribute="top" secondItem="39" secondAttribute="bottom" constant="3" id="nnV-kn-aWy"/>
+                        <constraint firstItem="46" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="24" id="odo-Xd-lSY"/>
+                        <constraint firstItem="42" firstAttribute="top" secondItem="43" secondAttribute="bottom" constant="6" id="pZZ-nE-Uac"/>
+                        <constraint firstItem="43" firstAttribute="trailing" secondItem="42" secondAttribute="trailing" id="qeb-hd-fME"/>
+                        <constraint firstItem="46" firstAttribute="leading" secondItem="34" secondAttribute="leading" constant="24" id="r5w-bP-bK1"/>
+                        <constraint firstItem="35" firstAttribute="centerY" secondItem="39" secondAttribute="centerY" id="riK-ta-cCt"/>
+                        <constraint firstItem="48" firstAttribute="centerX" secondItem="45" secondAttribute="centerX" id="tm5-6P-IFH"/>
+                        <constraint firstItem="43" firstAttribute="trailing" secondItem="35" secondAttribute="trailing" id="uTq-zK-ojN"/>
+                        <constraint firstItem="35" firstAttribute="leading" secondItem="39" secondAttribute="trailing" constant="12" id="w8b-Se-OMs"/>
+                    </constraints>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.23529411759999999" green="0.54901960780000003" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="34" secondAttribute="trailing" id="OIm-vO-rYd"/>
+                <constraint firstAttribute="bottom" secondItem="34" secondAttribute="bottom" id="Whn-fY-saI"/>
+                <constraint firstItem="34" firstAttribute="top" secondItem="1" secondAttribute="top" id="fUl-it-yR3"/>
+                <constraint firstItem="34" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="kds-RP-fXq"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="450" y="331"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="box-btm.png" width="300" height="2"/>
+        <image name="box-mid" width="302" height="75"/>
+        <image name="box-mid.png" width="300" height="1"/>
+        <image name="box-top" width="300" height="4"/>
+        <image name="box-top.png" width="300" height="2"/>
+        <image name="cyyun.png" width="140" height="54"/>
+        <image name="message" width="30" height="30"/>
+        <image name="telephone" width="30" height="30"/>
+    </resources>
+</document>

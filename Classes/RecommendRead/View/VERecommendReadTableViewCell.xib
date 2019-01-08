@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="VERecommendReadTableViewCell" rowHeight="58" id="3Xw-e5-QQl" customClass="VERecommendReadTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Xw-e5-QQl" id="7Zu-yN-qdL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" image="bar-listbg-new.png" highlightedImage="bar-listbg-old.png" translatesAutoresizingMaskIntoConstraints="NO" id="kyU-YB-fQj">
+                        <rect key="frame" x="10" y="8" width="300" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="fR3-lE-UmJ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cah-mZ-lHC">
+                        <rect key="frame" x="24" y="21" width="24" height="24"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPM-Oj-vwy">
+                        <rect key="frame" x="258" y="23" width="35" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="B3u-GD-8Wy"/>
+                            <constraint firstAttribute="height" constant="20" id="aw9-rD-aYk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="center" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixm-oE-Hx0">
+                        <rect key="frame" x="58" y="18" width="192" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.015686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kyU-YB-fQj" firstAttribute="leading" secondItem="7Zu-yN-qdL" secondAttribute="leadingMargin" constant="2" id="8WD-jX-IBe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lPM-Oj-vwy" secondAttribute="trailing" constant="19" id="KR3-ae-jad"/>
+                    <constraint firstItem="kyU-YB-fQj" firstAttribute="top" secondItem="7Zu-yN-qdL" secondAttribute="topMargin" id="PiV-eP-as7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kyU-YB-fQj" secondAttribute="trailing" constant="2" id="rdg-82-EYv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="bkView" destination="kyU-YB-fQj" id="SiZ-we-pkd"/>
+                <outlet property="imageNew" destination="lPM-Oj-vwy" id="WQS-rI-lxG"/>
+                <outlet property="imageTip" destination="cah-mZ-lHC" id="RWA-ab-c1N"/>
+                <outlet property="labelMain" destination="Ixm-oE-Hx0" id="kSp-6g-uhy"/>
+            </connections>
+            <point key="canvasLocation" x="510" y="432"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bar-listbg-new.png" width="302" height="72"/>
+        <image name="bar-listbg-old.png" width="302" height="72"/>
+    </resources>
+</document>

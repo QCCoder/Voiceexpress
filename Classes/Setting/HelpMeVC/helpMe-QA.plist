@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>1.   如何手动发送情报？</string>
+		<key>answer</key>
+		<string>点击【情报交互】界面的右上角的【编辑】按钮，在编辑页面填写标题，选择需要通知的联系人，填写预警信息内容或添加图片；最后点击右上角的【发送】按钮。N已发送的情报可在【情报交互】的发件箱查看。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>2.   怎么把舆情信息转发到【情报交互】？</string>
+		<key>answer</key>
+		<string> 进入舆情信息的详情页，点击左下角的【转发】按钮，编辑完成发送的信息，选择需要通知的联系人，发送的预警信息内容可以添加图片。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>3.   情报信息的回复，如何操作？</string>
+		<key>answer</key>
+		<string>如果要对整条情报进行回复，点击左下角的【回复】按钮。N如果要对指定对象进行回复，点击回复对象右边的【回复】按钮，输入回复内容即可。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>4.   手机端【区县上报】有哪些功能？</string>
+		<key>answer</key>
+		<string>（1）【区县上报】可以查看内网中互联网报处的本地数据，并且可以按类型进行筛选（民生、涉政、涉稳等）；N（2）转发【区县上报】，在信息的详情页点击右下角的转发按钮，可以将信息转发到【情报交互】。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>5.   如何查看新收到的最新预警信息？</string>
+		<key>answer</key>
+		<string>在成功地登录程序之后，即可看到新的预警信息。您可以看到其图标右上角有一个小红点，还可以看到各等级的预警信息的未读总数。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>6.   如何刷新最新预警信息或者加载显示更多信息？</string>
+		<key>answer</key>
+		<string>在【最新预警】界面，通过点击右上角的【列表】按钮，即可刷新全部数据；通过【下拉刷新】可获取最新的预警信息；通过点击【显示更多信息】可获取下一页的预警信息。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>7.   如何在【舆情搜索】界面中搜索远程数据？</string>
+		<key>answer</key>
+		<string>①  点击左上角的【搜索】图标，可选择搜索范围（标题、内容、全部）。 N②  输入您要搜索的内容。  N③  点击【搜索】即可搜索数据。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>8.   如何将我感兴趣的预警信息、搜索数据或者推荐阅读添加到收藏夹中？</string>
+		<key>answer</key>
+		<string>在信息详情页面，实心五角星表示已收藏，空心五角星表示未收藏。N点击实心五角星即可取消收藏，点击空心五角星即可添加收藏。 </string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>9.   如何设置在程序启动之后自动登录？</string>
+		<key>answer</key>
+		<string>在【设置】中，打开【自动登录】即可。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>10.   如何设置最新预警信息自动推送？</string>
+		<key>answer</key>
+		<string>在【设置】中，点击【预警通知】，打开【自动推送预警】，即可在收到新的预警信息时提醒您；关闭【自动推送预警】将不会提醒您。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>11.   如何在手机系统的【设置】程序中，设置推送通知样式选项？</string>
+		<key>answer</key>
+		<string>打开IPhone中的【设置】程序，点击【通知】或【通知中心】，找到【舆情快递】并点击进入（如果找不到【舆情快递】，请参考帮助文档中的第8项）。N提醒样式：N①  设置为无，则在手机收到推送消息时，不会进行提醒。N②  设置为横幅，则在手机收到推送时，会在手机屏幕的顶部显示提示横幅。N③  设置为提醒，则在手机收到推送时，会在手机屏幕的中央显示提醒窗口，直至点击后才自动消失。NN应用程序图标标记：开启，则会在程序的图标右上角显示数字。NN声音：开启，则会在手机收到推送后提示声音。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>12.   在IPhone的【设置】程序中，点击【通知】或【通知中心】，找不到【舆情快递】此项？</string>
+		<key>answer</key>
+		<string>可尝试如下操作：N① 关闭【设置】程序。N② 关闭【舆情快递】程序。N③ 重启下手机。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>13.   如何修改我的登录密码？</string>
+		<key>answer</key>
+		<string>在【设置】中，点击【密码修改】输入原密码和新密码即可。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>14.   如何将我的信息分享给他人？</string>
+		<key>answer</key>
+		<string>在指定信息的详情页面中，点击右下角的【列表】按钮，选择【分享】，即可通过邮件、短信、拷贝等方式进行分享。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>15.   我没有收到预警信息的推送是什么原因？如何检查？</string>
+		<key>answer</key>
+		<string>首先请检查下【自动推送预警】功能是否开启（参考帮助文档的第6和7项）。N如何开启【自动推送预警】功能还收不到推送信息，那么可能的原因：N① 网络未正常连接，可尝试使用浏览器打开几个网页检查下。N② 检测下手机的网络，如果手机连接wifi并且关闭了蜂窝数据，那么手机必须保持活动状态，不能处于休眠状态。（建议打开蜂窝数据来接收推送通知） N③  如果以上情况都无法解决，请在程序的【设置】中，点击【上传日志】。同时联系我们的客服，我们会尽快帮您解决问题。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>16.   程序中提示【连接超时】是什么原因？</string>
+		<key>answer</key>
+		<string>可能的原因是：我们的服务器响应缓慢，或者是当前手机网络差。请您检查手机的网络状态，并重新尝试先前的操作。</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>17.   如何获得需要进一步的帮助？</string>
+		<key>answer</key>
+		<string>在使用本程序中遇到任何的问题或者您有宝贵意见，请随时联系我们客服人员:N电话：0574-28877331N邮箱：contact@cyyun.com</string>
+	</dict>
+</array>
+</plist>
